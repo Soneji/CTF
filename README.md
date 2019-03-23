@@ -1,2 +1,0 @@
-# ctf
-a cool ctf
