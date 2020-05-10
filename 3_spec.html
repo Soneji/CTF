@@ -81,7 +81,8 @@
             if (p != "aGFja2VyNjk=") {
                 return "Error: Incorrect Password"
             }
-            return "<a href='final.html'>Click here to access the hacker website</a>"
+            a = atob("PGEgaHJlZj0nZmluYWwuaHRtbCc+Q2xpY2sgaGVyZSB0byBhY2Nlc3MgdGhlIGhhY2tlciB3ZWJzaXRlPC9hPg==");
+            return a;
         }
 
         commands.hello = function (args) {
