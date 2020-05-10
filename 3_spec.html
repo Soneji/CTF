@@ -57,7 +57,15 @@
         commands.cd = function() {
             return "Permission Denied";
         }
-
+        commands.sudo = function() { return "Command not found" };
+        commands.su = function() { return "Command not found" };
+        commands.apt = function () { return "Command not found" };
+        commands.ps = function () { return "Command not found" };
+        commands.htop = function () { return "Command not found" };
+        commands.grep = function () { return "Command not found" };
+        commands.curl = function() { return "Command not found" };
+        
+        
         commands.cat = function(args) {
             if (args[1] == "password.txt.hash"){
                 return "8763318469d71dfad2059bbfcddd0fc0"
