@@ -93,7 +93,7 @@
         commands.weather = function (args) {
             args.shift();
             var xhr = new XMLHttpRequest();
-            xhr.open("get", "http://api.openweathermap.org/data/2.5/weather?units=metric&q=" + args.join(" "), false);
+            xhr.open("get", "http://api.openweathermap.org/data/2.5/weather?appid=b08719d938958cccde5023065cb21711&units=metric&q=" + args.join(" "), false);
             xhr.send(); 
             if (xhr.status !== 200) return "Error :(";
             weather = JSON.parse(xhr.responseText);
