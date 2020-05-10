@@ -14,11 +14,11 @@ body{
 h1{
 
   animation: jello; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 5s; /* don't forget to set a duration! */
+  animation-duration: 3s; /* don't forget to set a duration! */
 
 }
 p, a, button{
   animation: fadeInTopLeft; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-duration: 1.5s; /* don't forget to set a duration! */
 
 }
