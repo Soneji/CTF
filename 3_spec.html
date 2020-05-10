@@ -98,7 +98,7 @@
             xhr.send(); 
             if (xhr.status !== 200) return "Error :(";
             weather = JSON.parse(xhr.responseText);
-            return "<p><img style=\"vertical-align: middle\" src=\"http://openweathermap.org/img/w/" +
+            return "<p><img style=\"vertical-align: middle\" src=\"//openweathermap.org/img/w/" +
                 weather.weather[0].icon + ".png\">" +
                 weather.weather[0].description + ", " +
                 weather.main.temp + " &deg;C</p>"
